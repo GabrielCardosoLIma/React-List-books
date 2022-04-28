@@ -5,16 +5,13 @@ import { BrowserRouter as Router,
     Route,
   } from "react-router-dom";
 
-import PagesFormBooks from "../page/Formbooks/Formbooks";
-import PagesListBooks from "../page/Listbooks/Listbooks";
+import PagesSearchBooks from "../page/Search/Search";
 
 const Root = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<PagesListBooks/>} />
-        <Route path="/create" element={<PagesFormBooks/>} />
-        <Route path="/edit/:id" element={<PagesFormBooks/>} />
+        <Route path="/" element={<PagesSearchBooks/>} />
       </Routes>
     </Router>
   );

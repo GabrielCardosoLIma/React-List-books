@@ -3,18 +3,20 @@ import { Button } from 'react-bootstrap';
 import styled from 'styled-components';
 
 const ItemContainer =  styled.div`
+    align-items: center;
     border-radius: 4px;
     background-color: #ccc;
     height: 120px;
     width: 262px;
     color: #29303b;
-    margim-bottom: 10px;
+    margin-bottom: 10px;
     margin-right: 10px;
     padding: 10px;
+    display: inline-block;
 `
 
 const TitlePane = styled.div`
-     font-weight: 700;
+     font-weight: bold;
      margin-bottom: 5px;
 `
 
