@@ -6,12 +6,15 @@ import { BrowserRouter as Router,
   } from "react-router-dom";
 
 import PagesSearchBooks from "../page/Search/Search";
+import PageForm from "../page/Form/Formbooks";
 
 const Root = () => {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<PagesSearchBooks/>} />
+        <Route path="/create" element={<PageForm/>} />
+        <Route path="/edit/:id" element={<PageForm />} />
       </Routes>
     </Router>
   );

@@ -1,0 +1,32 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Programação Web com Node.js",
+      "image": "https://m.media-amazon.com/images/I/4110e7iseFL.jpg",
+      "price": 14.99,
+      "url": "https://www.luiztools.com.br/livro-node-amazon"
+    },
+    {
+      "id": 2,
+      "title": "Node.js e Microservices",
+      "image": "https://m.media-amazon.com/images/I/41CUCsnLPML.jpg",
+      "price": 14.99,
+      "url": "https://www.luiztools.com.br/livro-node-ii-amazon"
+    },
+    {
+      "id": 3,
+      "title": "MongoDB para Iniciantes",
+      "image": "https://m.media-amazon.com/images/I/31NR3RRS3VL.jpg",
+      "price": 11.99,
+      "url": "https://www.luiztools.com.br/livro-mongodb-amazon"
+    },
+    {
+      "title": "Spring Boot",
+      "url": "https://www.amazon.com.br/Spring-Boot-Microsservi%C3%A7os-na-pr%C3%A1tica-ebook/dp/B091BD2MJ9/ref=pd_rhf_gw_s_pd_crcd_sccl_1_1/143-2357297-3773737?pd_rd_w=5yjeH&pf_rd_p=1b2190ca-db28-46be-85f8-55611bc8c041&pf_rd_r=27A72Z40X9VXJ4DRZPXA&pd_rd_r=7ef6f185-72ee-43f7-9915-4bad66be167d&pd_rd_wg=tKwaz&pd_rd_i=B091BD2MJ9&psc=1",
+      "image": "https://m.media-amazon.com/images/I/410-7ycrzQL.jpg",
+      "price": "30",
+      "id": 4
+    }
+  ]
+}

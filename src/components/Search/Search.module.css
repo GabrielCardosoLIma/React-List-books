@@ -1,3 +1,7 @@
+.PromotionSearchHeader{
+    display: flex;  
+    justify-content: space-between;
+}
 .PromotionSearchHeader h1 {
     text-transform: uppercase;
     color: #888;
@@ -8,7 +12,7 @@
     height: 42px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    width: 808px;
+    width: 727px;
     margin-bottom: 20px;
     padding: 0 10px;
     font-size: 16px;
